@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs><clipPath id="scene"><rect x="208" y="286" width="608" height="444" rx="62"/></clipPath></defs>
+  <g clip-path="url(#scene)">
+    <circle cx="699" cy="400" r="39" fill="#F7FDFF"/>
+    <path d="M208 637 L430 430 C472 421 554 582 610 615 L816 525 V730 H208Z" fill="#58A9EC"/>
+    <path d="M208 573 C340 525 424 648 540 687 C665 706 734 552 816 581 V730 H208Z" fill="#3189DD"/>
+  </g>
+</svg>
