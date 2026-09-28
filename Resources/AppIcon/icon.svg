@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6F7FF"/><stop offset=".52" stop-color="#8AC2FA"/><stop offset="1" stop-color="#72C7E8"/></linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFF" stop-opacity=".66"/><stop offset="1" stop-color="#FFF" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6E8FF"/><stop offset="1" stop-color="#5DB3F3"/></linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5BB5F8"/><stop offset="1" stop-color="#2F88DC"/></linearGradient>
+    <linearGradient id="foreground" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#51ACF4"/><stop offset="1" stop-color="#1F71CE"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="13" stdDeviation="14" flood-color="#26609E" flood-opacity=".24"/></filter>
+    <clipPath id="sceneClip"><rect x="208" y="286" width="608" height="444" rx="62"/></clipPath>
+  </defs>
+  <rect x="38" y="38" width="948" height="948" rx="220" fill="url(#tile)" stroke="#E7FAFF" stroke-width="7" filter="url(#shadow)"/>
+  <rect x="56" y="55" width="912" height="484" rx="205" fill="url(#gloss)"/>
+  <rect x="174" y="252" width="676" height="512" rx="92" fill="#EAF9FF" fill-opacity=".84" stroke="#FFF" stroke-width="5" filter="url(#shadow)"/>
+  <rect x="208" y="286" width="608" height="444" rx="62" fill="url(#sky)"/>
+  <g clip-path="url(#sceneClip)">
+    <circle cx="699" cy="400" r="39" fill="#F7FDFF" fill-opacity=".92"/>
+    <path d="M208 637 L430 430 C472 421 554 582 610 615 L816 525 V730 H208Z" fill="url(#mountain)"/>
+    <path d="M208 573 C340 525 424 648 540 687 C665 706 734 552 816 581 V730 H208Z" fill="url(#foreground)"/>
+  </g>
+  <rect x="208" y="286" width="608" height="444" rx="62" fill="none" stroke="#EFFBFF" stroke-opacity=".58" stroke-width="3"/>
+  <circle cx="741" cy="717" r="121" fill="#BCE2FD" stroke="#FAFEFF" stroke-width="6" filter="url(#shadow)"/>
+  <path d="M708 650 Q708 642 713 646 L793 706 Q807 717 793 727 L713 784 Q708 789 708 780Z" fill="#FFF"/>
+</svg>

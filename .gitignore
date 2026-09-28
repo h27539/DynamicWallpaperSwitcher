@@ -21,6 +21,11 @@ diagnostics/
 .local-release/
 scripts/repair_mac_catalog.py
 TEST_REPORT.md
+RELEASE_AUDIT.md
+RELEASE_CHECKLIST.md
+STABLE_BASELINE.md
+docs/validation.md
+docs/aerial-format-notes.md
 
 # Media and Apple/user-owned resources must never be committed
 *.mov

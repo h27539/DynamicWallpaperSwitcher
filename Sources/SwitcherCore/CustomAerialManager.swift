@@ -175,13 +175,6 @@ private struct ManifestCloneRecord: Codable {
     var thumbnailSHA256: String?
 }
 
-private struct POCLedger: Decodable {
-    let id: String
-    let shotID: String
-    let videoSHA256: String
-    let thumbnailSHA256: String
-}
-
 public struct CustomAerialManager {
     public static let categoryID = "D8C9A42E-12F7-4DA5-8B04-8E25F9530D77" // Legacy top-level ID; now the custom subcategory ID.
     public static let customSubcategoryID = categoryID
@@ -227,66 +220,6 @@ public struct CustomAerialManager {
 
     public func restoreOriginalLocalization() throws {
         try AerialLocalization(paths: paths).restore()
-    }
-
-    /// Explicit developer cleanup. Only the three bundled ownership ledgers are accepted.
-    public func cleanupVerifiedPOCCards() throws -> Int {
-        let owned = try readOwned()
-        guard owned.assets.contains(where: {
-            $0.mode == .custom && $0.categoryID == Self.formalCategoryID
-                && $0.compatibilityValidated && $0.sourceFilename == "sample_video.mp4"
-        }) else {
-            throw SwitcherError("请先用新版 App 成功导入 sample_video.mp4，再清理三张 POC 卡。")
-        }
-        let names = ["sample_video-4k-poc-ledger", "sample_video-4k-hq-poc-ledger", "sample_video-4k-full-poc-ledger"]
-        let ledgers = try names.map { name -> POCLedger in
-            guard let url = Bundle.main.url(forResource: name, withExtension: "json") else {
-                throw SwitcherError("App 缺少 POC 所有权记录：\(name)。")
-            }
-            return try JSONDecoder().decode(POCLedger.self, from: Data(contentsOf: url))
-        }
-        let manifest = try readManifest()
-        let entries = try assetArray(manifest)
-        guard (try categoryArray(manifest)).contains(where: { $0["id"] as? String == Self.macCategoryID }),
-              entries.contains(where: { $0["id"] as? String == Self.knownMacAssetID }) else {
-            throw SwitcherError("当前 Aerials 目录缺少系统 Mac 分类或 Mac Blue；停止清理，请先恢复目录。")
-        }
-        for ledger in ledgers {
-            let matches = entries.filter { $0["id"] as? String == ledger.id }
-            guard matches.count <= 1, matches.first?["shotID"] as? String == ledger.shotID || matches.isEmpty else {
-                throw SwitcherError("POC 资源归属不匹配：\(ledger.id)。")
-            }
-            for (path, expected) in [(cacheURL(ledger.id), ledger.videoSHA256),
-                                     (thumbnailPNGURL(ledger.id), ledger.thumbnailSHA256)] {
-                if fm.fileExists(atPath: path.path) {
-                    guard try sha256(path) == expected else {
-                        throw SwitcherError("POC 文件哈希已变化，拒绝删除：\(path.path)")
-                    }
-                }
-            }
-        }
-        let ids = Set(ledgers.map(\.id))
-        let count = entries.filter { ids.contains($0["id"] as? String ?? "") }.count
-        if count > 0 {
-            try mutateManifest { root in
-                var assets = try assetArray(root)
-                for ledger in ledgers {
-                    let matches = assets.filter { $0["id"] as? String == ledger.id }
-                    guard matches.count <= 1,
-                          matches.first?["shotID"] as? String == ledger.shotID || matches.isEmpty else {
-                        throw SwitcherError("POC 删除前 manifest 发生变化。")
-                    }
-                }
-                assets.removeAll { ids.contains($0["id"] as? String ?? "") }
-                root["assets"] = assets
-            }
-        }
-        for ledger in ledgers {
-            for path in [cacheURL(ledger.id), thumbnailPNGURL(ledger.id)] where fm.fileExists(atPath: path.path) {
-                try fm.removeItem(at: path)
-            }
-        }
-        return count
     }
 
     public func activateFormalCustomCategory() throws {
@@ -589,7 +522,7 @@ public struct CustomAerialManager {
     public func importConvertedVideo(_ movie: URL, sourceFilename: String, displayName: String,
                                      thumbnail: URL? = nil,
                                      progress: (String) -> Void = { _ in }) throws -> CustomAerialAsset {
-        progress("正在复核动态壁纸兼容性…")
+        progress(String(localized: "正在复核动态壁纸兼容性…"))
         _ = try AerialCompatibilityChecker().check(movie, ffmpeg: FFmpegLocator.locate())
         return try importVideo(movie, displayName: displayName, id: UUID(), mode: .custom,
                                originalSourceFilename: sourceFilename, forceFormalCategory: true,
@@ -639,7 +572,7 @@ public struct CustomAerialManager {
             }
         }
         let original = originalURL(uuid)
-        progress("保存视频主副本…")
+        progress(String(localized: "保存视频主副本…"))
         let sourceHash = try sha256(source)
         try fm.copyItem(at: source, to: original)
         guard try sha256(original) == sourceHash else { throw SwitcherError("视频主副本校验失败。") }
@@ -667,7 +600,7 @@ public struct CustomAerialManager {
         let assetEncoder = JSONEncoder()
         assetEncoder.dateEncodingStrategy = .iso8601
         try assetEncoder.encode(asset).write(to: assetDir.appendingPathComponent("metadata.json"), options: .atomic)
-        progress("安装 Aerials 视频缓存…")
+        progress(String(localized: "安装 Aerials 视频缓存…"))
         try installCache(asset)
         cacheInstalled = true
         do {

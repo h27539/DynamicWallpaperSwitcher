@@ -96,7 +96,7 @@ public struct WallpaperSwitcher {
         defer { try? fm.removeItem(at: staging) }
         var manifest: [String: String] = [:]
         for file in WallpaperFile.allCases {
-            progress("备份 \(file.rawValue)…")
+            progress(String(localized: "备份 \(file.rawValue)…"))
             let source = paths.videos.appendingPathComponent(file.rawValue)
             let target = staging.appendingPathComponent(file.rawValue)
             let hash = try digest(source)
@@ -176,7 +176,7 @@ public struct WallpaperSwitcher {
         let target = goldenDir.appendingPathComponent(file.goldenName)
         if source == target { return target }
         try fm.createDirectory(at: goldenDir, withIntermediateDirectories: true)
-        progress("保存 Golden Gate \(file.goldenName)…")
+        progress(String(localized: "保存 Golden Gate \(file.goldenName)…"))
         let hash = try digest(source)
         let temp = goldenDir.appendingPathComponent(".\(UUID().uuidString).mov")
         defer { try? fm.removeItem(at: temp) }
@@ -242,7 +242,7 @@ public struct WallpaperSwitcher {
         var expected: [WallpaperFile: String] = [:]
         var preimages: [String: String] = [:]
         for (file, source) in sources {
-            progress("校验并准备 \(file.rawValue)…")
+            progress(String(localized: "校验并准备 \(file.rawValue)…"))
             let hash = try digest(source)
             let staged = staging.appendingPathComponent(file.rawValue)
             try fm.copyItem(at: source, to: staged)
@@ -259,7 +259,7 @@ public struct WallpaperSwitcher {
         var changed: [WallpaperFile] = []
         do {
             for (file, _) in sources {
-                progress("切换 \(file.rawValue)…")
+                progress(String(localized: "切换 \(file.rawValue)…"))
                 try renameReplacing(staging.appendingPathComponent(file.rawValue), paths.videos.appendingPathComponent(file.rawValue))
                 changed.append(file)
                 guard try digest(paths.videos.appendingPathComponent(file.rawValue)) == expected[file] else {
@@ -305,6 +305,6 @@ public struct WallpaperSwitcher {
 
 public struct SwitcherError: LocalizedError {
     public let message: String
-    public init(_ message: String) { self.message = message }
+    public init(_ message: LocalizedStringResource) { self.message = String(localized: message) }
     public var errorDescription: String? { message }
 }

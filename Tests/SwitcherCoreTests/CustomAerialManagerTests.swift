@@ -116,14 +116,14 @@ final class CustomAerialManagerTests: XCTestCase {
     }
 
     func testValidatedImportCreatesOneFormalCategoryOnFirstAndSecondImport() throws {
-        let project = URL(fileURLWithPath: #filePath).deletingLastPathComponent()
-            .deletingLastPathComponent().deletingLastPathComponent()
-        let movie = project.appendingPathComponent("diagnostics/sample_video-aerial-1080p.mov")
-        guard FileManager.default.fileExists(atPath: movie.path) else { throw XCTSkip("参考 MOV 不在本地项目") }
+        guard let source = ProcessInfo.processInfo.environment["DWS_TEST_MOV"] else {
+            throw XCTSkip("Set DWS_TEST_MOV to a locally owned, validated MOV")
+        }
+        let movie = URL(fileURLWithPath: source)
         let formal = CustomAerialManager(paths: paths, inspector: FixtureInspector(),
                                          ensureLocalizationOverride: {})
-        let first = try formal.importConvertedVideo(movie, sourceFilename: "sample_video.mp4", displayName: "第一张")
-        let second = try formal.importConvertedVideo(movie, sourceFilename: "sample_video.mp4", displayName: "第二张")
+        let first = try formal.importConvertedVideo(movie, sourceFilename: "sample.mov", displayName: "第一张")
+        let second = try formal.importConvertedVideo(movie, sourceFilename: "sample.mov", displayName: "第二张")
         XCTAssertTrue(first.compatibilityValidated)
         XCTAssertTrue(second.compatibilityValidated)
         XCTAssertEqual(first.categoryID, CustomAerialManager.formalCategoryID)

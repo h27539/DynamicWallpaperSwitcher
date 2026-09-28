@@ -5,7 +5,7 @@ import Darwin
 
 @MainActor
 final class SwitcherViewModel: ObservableObject {
-    @Published var current = "读取中…"
+    @Published var current = AppStrings.text("读取中…")
     @Published var progress = "正在检查视频和备份…"
     @Published var error: String?
     @Published var busy = true
@@ -34,7 +34,7 @@ final class SwitcherViewModel: ObservableObject {
                 }
             } catch {
                 await MainActor.run {
-                    self.current = "未知"
+                    self.current = AppStrings.text("未知")
                     self.progress = "检查未完成"
                     self.error = error.localizedDescription
                     self.hasPendingTransaction = !WallpaperSwitcher().pendingTransactions().isEmpty
@@ -97,7 +97,7 @@ final class SwitcherViewModel: ObservableObject {
         switch state {
         case .tahoe: "Tahoe"
         case .goldenGate: "Golden Gate"
-        case .unknown: "未知 / 已修改"
+        case .unknown: AppStrings.text("未知 / 已修改")
         }
     }
 
@@ -113,7 +113,8 @@ final class SwitcherViewModel: ObservableObject {
                 if process.terminationStatus > 1 { issues.append(name) }
             } catch { issues.append(name) }
         }
-        return issues.isEmpty ? nil : "视频已切换；无法刷新：\(issues.joined(separator: "、"))。可注销后重新登录。"
+        return issues.isEmpty ? nil : String(format: AppStrings.text("视频已切换；无法刷新：%@。可注销后重新登录。"),
+                                             issues.joined(separator: ", "))
     }
 }
 
@@ -129,12 +130,16 @@ struct NeptuneView: View {
                     .foregroundStyle(.blue)
                 VStack(alignment: .leading, spacing: 3) {
                     Text("DynamicWallpaperSwitcher").font(.title2.bold())
-                    Text("Neptune 原生动态壁纸素材切换").foregroundStyle(.secondary)
+                    Text("Apple 墙纸工具").foregroundStyle(.secondary)
                 }
             }
 
+            Text("在无法使用新版墙纸的 Mac 上，切换当前用户的 Tahoe 与 Golden Gate 动态墙纸资源。不会修改系统文件。")
+                .font(.callout).foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+
             HStack {
-                Text("当前壁纸").foregroundStyle(.secondary)
+                Text("当前").foregroundStyle(.secondary)
                 Spacer()
                 Text(model.current).font(.headline)
             }
@@ -142,15 +147,15 @@ struct NeptuneView: View {
             .background(.quaternary, in: RoundedRectangle(cornerRadius: 10))
 
             HStack(spacing: 12) {
-                Button("使用 Tahoe") { model.use(.tahoe) }
-                Button("使用 Golden Gate") { model.use(.goldenGate) }
+                Button("使用 Tahoe 墙纸") { model.use(.tahoe) }
+                Button("使用 Golden Gate 墙纸") { model.use(.goldenGate) }
                     .buttonStyle(.borderedProminent)
             }
             .disabled(model.busy)
 
             HStack(spacing: 8) {
                 if model.busy { ProgressView().controlSize(.small) }
-                Text(model.progress).foregroundStyle(.secondary)
+                Text(AppStrings.text(model.progress)).foregroundStyle(.secondary)
             }
 
             if let error = model.error {
@@ -194,10 +199,10 @@ struct NeptuneView: View {
 struct ContentView: View {
     var body: some View {
         TabView {
-            NeptuneView()
-                .tabItem { Label("Apple 动态壁纸", systemImage: "mountain.2") }
             CustomAerialsView()
-                .tabItem { Label("自定义壁纸", systemImage: "film.stack") }
+                .tabItem { Label("自定义动态壁纸", systemImage: "film.stack") }
+            NeptuneView()
+                .tabItem { Label("Apple 墙纸工具", systemImage: "mountain.2") }
         }
         .frame(minWidth: 720, minHeight: 520)
     }

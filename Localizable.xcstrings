@@ -1,0 +1,4870 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "自定义动态壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Dynamic Wallpapers"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义动态壁纸"
+          }
+        }
+      }
+    },
+    "将普通视频转换为 macOS 原生 Aerial 动态壁纸。锁屏时播放，解锁后自然停留在桌面背景。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Convert ordinary videos into macOS Aerial-compatible dynamic wallpapers. They play on the Lock Screen and become a still desktop background after unlocking."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将普通视频转换为 macOS 原生 Aerial 动态壁纸。锁屏时播放，解锁后自然停留在桌面背景。"
+          }
+        }
+      }
+    },
+    "+ 添加视频": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Add Video"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ 添加视频"
+          }
+        }
+      }
+    },
+    "环境": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Environment"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "环境"
+          }
+        }
+      }
+    },
+    "我的动态壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My Wallpapers"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的动态壁纸"
+          }
+        }
+      }
+    },
+    "还没有自定义壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No custom wallpapers yet"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "还没有自定义壁纸"
+          }
+        }
+      }
+    },
+    "选择 MOV 或 MP4 视频开始导入。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a MOV or MP4 video to get started."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择 MOV 或 MP4 视频开始导入。"
+          }
+        }
+      }
+    },
+    "ffmpeg 未找到": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffmpeg not found"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffmpeg 未找到"
+          }
+        }
+      }
+    },
+    "ffprobe 未找到": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffprobe not found"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffprobe 未找到"
+          }
+        }
+      }
+    },
+    "x265 未找到": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265 not found"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265 未找到"
+          }
+        }
+      }
+    },
+    "高级设置": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advanced"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高级设置"
+          }
+        }
+      }
+    },
+    "App 架构：Universal（Intel + Apple Silicon）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App architecture: Universal (Intel + Apple Silicon)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App 架构：Universal（Intel + Apple Silicon）"
+          }
+        }
+      }
+    },
+    "当前运行：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Running architecture: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前运行：%@"
+          }
+        }
+      }
+    },
+    "ffmpeg：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffmpeg: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffmpeg：%@"
+          }
+        }
+      }
+    },
+    "x265：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265：%@"
+          }
+        }
+      }
+    },
+    "独立“自定义”分类已启用": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dedicated Custom category enabled"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "独立“自定义”分类已启用"
+          }
+        }
+      }
+    },
+    "启用独立“自定义”分类": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable dedicated Custom category"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用独立“自定义”分类"
+          }
+        }
+      }
+    },
+    "修复自定义分类名称": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair Custom category name"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "修复自定义分类名称"
+          }
+        }
+      }
+    },
+    "恢复原本地化资源": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore original localization resources"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复原本地化资源"
+          }
+        }
+      }
+    },
+    "系统墙纸资源已更新，需要修复自定义分类名称。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System wallpaper resources changed. Repair the Custom category name."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "系统墙纸资源已更新，需要修复自定义分类名称。"
+          }
+        }
+      }
+    },
+    "旧版自定义壁纸（%lld）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy custom wallpapers (%lld)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版自定义壁纸（%lld）"
+          }
+        }
+      }
+    },
+    "迁移会保留原 UUID 和视频主副本，改用当前自定义分类。旧 MP4 素材只搬迁文件，播放兼容性仍需实机确认。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migration preserves the UUID and original video while moving to the current Custom category. Legacy MP4 playback still needs device validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移会保留原 UUID 和视频主副本，改用当前自定义分类。旧 MP4 素材只搬迁文件，播放兼容性仍需实机确认。"
+          }
+        }
+      }
+    },
+    "迁移旧版自定义壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migrate legacy wallpaper"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移旧版自定义壁纸"
+          }
+        }
+      }
+    },
+    "取消": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "打开墙纸设置": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Wallpaper Settings"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开墙纸设置"
+          }
+        }
+      }
+    },
+    "添加自定义动态壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Custom Dynamic Wallpaper"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加自定义动态壁纸"
+          }
+        }
+      }
+    },
+    "视频：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频：%@"
+          }
+        }
+      }
+    },
+    "分辨率：%lld×%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolution: %lld × %lld"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分辨率：%lld×%lld"
+          }
+        }
+      }
+    },
+    "帧率：%lld fps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frame rate: %lld fps"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "帧率：%lld fps"
+          }
+        }
+      }
+    },
+    "长度：%@ 秒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duration: %@ s"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "长度：%@ 秒"
+          }
+        }
+      }
+    },
+    "输出：%lld×%lld · 240 fps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Output: %lld × %lld · 240 fps"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输出：%lld×%lld · 240 fps"
+          }
+        }
+      }
+    },
+    "当前版本最多转换 4 分钟视频。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This version converts videos up to four minutes long."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前版本最多转换 4 分钟视频。"
+          }
+        }
+      }
+    },
+    "画质": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quality"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画质"
+          }
+        }
+      }
+    },
+    "高质量文件更大、转换更慢；推荐标准。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High quality creates a larger file and takes longer. Standard is recommended."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高质量文件更大、转换更慢；推荐标准。"
+          }
+        }
+      }
+    },
+    "开始转换": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Conversion"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始转换"
+          }
+        }
+      }
+    },
+    "删除这张自定义壁纸？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this custom wallpaper?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除这张自定义壁纸？"
+          }
+        }
+      }
+    },
+    "删除": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除"
+          }
+        }
+      }
+    },
+    "只删除本 App 管理的资源；不会触及 Apple、Golden Gate 或其他自定义壁纸。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only resources managed by this App will be removed. Apple, Golden Gate, and other custom wallpapers will not be touched."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只删除本 App 管理的资源；不会触及 Apple、Golden Gate 或其他自定义壁纸。"
+          }
+        }
+      }
+    },
+    "迁移这张旧版壁纸？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migrate this legacy wallpaper?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移这张旧版壁纸？"
+          }
+        }
+      }
+    },
+    "迁移": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migrate"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移"
+          }
+        }
+      }
+    },
+    "保留 UUID 与主副本；旧 MP4 视频的播放兼容性未验证。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The UUID and original copy are preserved. Playback compatibility of legacy MP4 videos has not been verified."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留 UUID 与主副本；旧 MP4 视频的播放兼容性未验证。"
+          }
+        }
+      }
+    },
+    "动态壁纸兼容 ✓": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dynamic wallpaper compatible ✓"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动态壁纸兼容 ✓"
+          }
+        }
+      }
+    },
+    "旧版导入 · 解锁兼容性未验证": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy import · unlock compatibility unverified"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版导入 · 解锁兼容性未验证"
+          }
+        }
+      }
+    },
+    "选择": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择"
+          }
+        }
+      }
+    },
+    "修复": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "修复"
+          }
+        }
+      }
+    },
+    "在 Finder 中显示": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show in Finder"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Finder 中显示"
+          }
+        }
+      }
+    },
+    "⚠ 主副本丢失": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ Original copy missing"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ 主副本丢失"
+          }
+        }
+      }
+    },
+    "⚠ manifest 条目丢失": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ Manifest entry missing"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ manifest 条目丢失"
+          }
+        }
+      }
+    },
+    "⚠ 视频缓存丢失": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ Video cache missing"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ 视频缓存丢失"
+          }
+        }
+      }
+    },
+    "⚠ 缩略图丢失": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ Thumbnail missing"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ 缩略图丢失"
+          }
+        }
+      }
+    },
+    "⚠ 视频校验不匹配": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ Video checksum mismatch"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ 视频校验不匹配"
+          }
+        }
+      }
+    },
+    "✓ 已安装": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✓ Installed"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✓ 已安装"
+          }
+        }
+      }
+    },
+    "读取中…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取中…"
+          }
+        }
+      }
+    },
+    "正在检查视频和备份…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking videos and backup…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查视频和备份…"
+          }
+        }
+      }
+    },
+    "就绪": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "就绪"
+          }
+        }
+      }
+    },
+    "未知": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未知"
+          }
+        }
+      }
+    },
+    "检查未完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check incomplete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查未完成"
+          }
+        }
+      }
+    },
+    "正在从事务副本恢复…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovering from the transaction backup…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在从事务副本恢复…"
+          }
+        }
+      }
+    },
+    "正在准备切换…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing switch…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在准备切换…"
+          }
+        }
+      }
+    },
+    "正在刷新系统壁纸进程…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refreshing wallpaper processes…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在刷新系统壁纸进程…"
+          }
+        }
+      }
+    },
+    "已恢复 Tahoe，并清理横屏缓存": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahoe restored; landscape cache cleaned"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已恢复 Tahoe，并清理横屏缓存"
+          }
+        }
+      }
+    },
+    "切换完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch complete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切换完成"
+          }
+        }
+      }
+    },
+    "操作失败": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operation failed"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作失败"
+          }
+        }
+      }
+    },
+    "未知 / 已修改": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown / modified"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未知 / 已修改"
+          }
+        }
+      }
+    },
+    "Apple 墙纸工具": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Wallpaper Utilities"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 墙纸工具"
+          }
+        }
+      }
+    },
+    "在无法使用新版墙纸的 Mac 上，切换当前用户的 Tahoe 与 Golden Gate 动态墙纸资源。不会修改系统文件。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch current-user Tahoe and Golden Gate wallpaper resources on Macs that cannot use newer wallpapers. No system files are modified."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在无法使用新版墙纸的 Mac 上，切换当前用户的 Tahoe 与 Golden Gate 动态墙纸资源。不会修改系统文件。"
+          }
+        }
+      }
+    },
+    "当前": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前"
+          }
+        }
+      }
+    },
+    "使用 Tahoe 墙纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Tahoe Wallpaper"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用 Tahoe 墙纸"
+          }
+        }
+      }
+    },
+    "使用 Golden Gate 墙纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Golden Gate Wallpaper"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用 Golden Gate 墙纸"
+          }
+        }
+      }
+    },
+    "恢复上次中断的切换": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recover Interrupted Switch"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复上次中断的切换"
+          }
+        }
+      }
+    },
+    "已发现一对 Golden Gate 竖屏视频；切换时会一并使用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Golden Gate portrait videos found; they will be switched too."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已发现一对 Golden Gate 竖屏视频；切换时会一并使用。"
+          }
+        }
+      }
+    },
+    "竖屏保持 Tahoe；仅当应用数据 GoldenGate 目录中有两段竖屏视频时才替换。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portrait remains Tahoe unless both Golden Gate portrait videos are present in the App data folder."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "竖屏保持 Tahoe；仅当应用数据 GoldenGate 目录中有两段竖屏视频时才替换。"
+          }
+        }
+      }
+    },
+    "清理 / 重置为 Tahoe…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clean Up / Restore Tahoe…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清理 / 重置为 Tahoe…"
+          }
+        }
+      }
+    },
+    "重新检查": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Again"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新检查"
+          }
+        }
+      }
+    },
+    "恢复 Tahoe 并清理缓存？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Tahoe and clean cache?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复 Tahoe 并清理缓存？"
+          }
+        }
+      }
+    },
+    "恢复 Tahoe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Tahoe"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复 Tahoe"
+          }
+        }
+      }
+    },
+    "四个 Tahoe 视频将从首次备份恢复；应用缓存的两段 Golden Gate 横屏副本会被清理。竖屏素材、Aerials 原视频和实验克隆不会改动。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All four Tahoe videos will be restored from the first backup. The App's two cached Golden Gate landscape copies will be removed. Portrait assets, original Aerials videos, and experimental clones remain untouched."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "四个 Tahoe 视频将从首次备份恢复；应用缓存的两段 Golden Gate 横屏副本会被清理。竖屏素材、Aerials 原视频和实验克隆不会改动。"
+          }
+        }
+      }
+    },
+    "选择视频": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Video"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择视频"
+          }
+        }
+      }
+    },
+    "正在读取视频信息…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading video information…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在读取视频信息…"
+          }
+        }
+      }
+    },
+    "视频可读取，请选择质量。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video is readable. Choose a quality setting."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频可读取，请选择质量。"
+          }
+        }
+      }
+    },
+    "导入已停止": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import stopped"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导入已停止"
+          }
+        }
+      }
+    },
+    "正在准备转换…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing conversion…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在准备转换…"
+          }
+        }
+      }
+    },
+    "视频信息已失效，请重新选择。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video information expired. Choose the file again."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频信息已失效，请重新选择。"
+          }
+        }
+      }
+    },
+    "视频已兼容，正在安装…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video is compatible. Installing…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频已兼容，正在安装…"
+          }
+        }
+      }
+    },
+    "正在安装已验证的视频…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installing validated video…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在安装已验证的视频…"
+          }
+        }
+      }
+    },
+    "动态壁纸已添加": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dynamic wallpaper added"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动态壁纸已添加"
+          }
+        }
+      }
+    },
+    "动态壁纸已添加。请在系统设置 → 墙纸 → 自定义中选择。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dynamic wallpaper added. Select it in System Settings → Wallpaper → Custom."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动态壁纸已添加。请在系统设置 → 墙纸 → 自定义中选择。"
+          }
+        }
+      }
+    },
+    "导入未完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import incomplete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导入未完成"
+          }
+        }
+      }
+    },
+    "正在取消并清理临时文件…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelling and removing temporary files…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在取消并清理临时文件…"
+          }
+        }
+      }
+    },
+    "诊断信息已复制": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostics copied"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "诊断信息已复制"
+          }
+        }
+      }
+    },
+    "正在修复…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repairing…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在修复…"
+          }
+        }
+      }
+    },
+    "正在备份本地化资源并创建独立自定义分类…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backing up localization and creating the Custom category…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在备份本地化资源并创建独立自定义分类…"
+          }
+        }
+      }
+    },
+    "正在以当前资源为基准修复分类名称…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repairing category name against current resources…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在以当前资源为基准修复分类名称…"
+          }
+        }
+      }
+    },
+    "正在恢复本 App 备份的本地化资源…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restoring localization from this App's backup…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在恢复本 App 备份的本地化资源…"
+          }
+        }
+      }
+    },
+    "正在检查并修复全部资源…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking and repairing all resources…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查并修复全部资源…"
+          }
+        }
+      }
+    },
+    "全部检查完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All checks complete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部检查完成"
+          }
+        }
+      }
+    },
+    "部分资源需要处理": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some resources need attention"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "部分资源需要处理"
+          }
+        }
+      }
+    },
+    "正在删除…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deleting…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在删除…"
+          }
+        }
+      }
+    },
+    "正在迁移旧版壁纸…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migrating legacy wallpaper…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在迁移旧版壁纸…"
+          }
+        }
+      }
+    },
+    "操作未完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operation incomplete"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作未完成"
+          }
+        }
+      }
+    },
+    "标准 · CRF 17": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standard · CRF 17"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "标准 · CRF 17"
+          }
+        }
+      }
+    },
+    "高质量 · CRF 16": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High Quality · CRF 16"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高质量 · CRF 16"
+          }
+        }
+      }
+    },
+    "编码动态壁纸": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encoding dynamic wallpaper"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编码动态壁纸"
+          }
+        }
+      }
+    },
+    "封装 240 fps MOV": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Packaging 240 fps MOV"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "封装 240 fps MOV"
+          }
+        }
+      }
+    },
+    "完整兼容性校验": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full compatibility validation"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完整兼容性校验"
+          }
+        }
+      }
+    },
+    "x265: Intel build": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Intel build"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Intel build"
+          }
+        }
+      }
+    },
+    "x265: Apple Silicon build": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Apple Silicon build"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Apple Silicon build"
+          }
+        }
+      }
+    },
+    "x265: Universal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Universal"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "x265: Universal"
+          }
+        }
+      }
+    },
+    "本地化表结构已变化；没有写入。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization table format changed; nothing was written."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表结构已变化；没有写入。"
+          }
+        }
+      }
+    },
+    "本地化资源不在当前用户 Aerials 目录，已停止。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization resources are outside the current user's Aerials directory; stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化资源不在当前用户 Aerials 目录，已停止。"
+          }
+        }
+      }
+    },
+    "本地化表语言结构异常。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization table language structure is invalid."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表语言结构异常。"
+          }
+        }
+      }
+    },
+    "发现非当前 App 记录的同名本地化键；没有覆盖。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matching localization keys not owned by this App were found; no files were overwritten."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发现非当前 App 记录的同名本地化键；没有覆盖。"
+          }
+        }
+      }
+    },
+    "本地化键只存在于部分语言；请先检查，不自动覆盖。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization keys exist in only some languages; inspect them before changing anything."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化键只存在于部分语言；请先检查，不自动覆盖。"
+          }
+        }
+      }
+    },
+    "本地化 bundle 完整备份的哈希、权限或修改时间不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The full localization bundle backup differs in hash, permissions, or modification time."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化 bundle 完整备份的哈希、权限或修改时间不一致。"
+          }
+        }
+      }
+    },
+    "本地化表序列化后复读不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The localization table did not match after serialization."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表序列化后复读不一致。"
+          }
+        }
+      }
+    },
+    "本地化表写入前发生并发改动或临时文件复读失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization changed before writing, or the temporary file failed validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表写入前发生并发改动或临时文件复读失败。"
+          }
+        }
+      }
+    },
+    "本地化表原子替换失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atomic replacement of the localization table failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表原子替换失败。"
+          }
+        }
+      }
+    },
+    "本地化表安装校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed localization table failed validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地化表安装校验失败。"
+          }
+        }
+      }
+    },
+    "自定义顶层分类仍在使用这些名称键；请先删除该分类中的所有 App 资源。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Custom category still uses these name keys. Remove all App-owned resources from it first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义顶层分类仍在使用这些名称键；请先删除该分类中的所有 App 资源。"
+          }
+        }
+      }
+    },
+    "没有 App 本地化备份记录。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No App-owned localization backup record exists."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有 App 本地化备份记录。"
+          }
+        }
+      }
+    },
+    "完整 bundle 备份已变化，停止恢复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The full bundle backup changed; restoration stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完整 bundle 备份已变化，停止恢复。"
+          }
+        }
+      }
+    },
+    "原始本地化表哈希不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original localization table checksum differs."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原始本地化表哈希不一致。"
+          }
+        }
+      }
+    },
+    "当前 bundle 还有外部修改，停止自动恢复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current bundle has external changes; automatic restoration stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前 bundle 还有外部修改，停止自动恢复。"
+          }
+        }
+      }
+    },
+    "恢复前发生并发修改或原子替换失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A concurrent change or atomic replacement failure occurred during restoration."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复前发生并发修改或原子替换失败。"
+          }
+        }
+      }
+    },
+    "备份元数据缺少本地化表，停止恢复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup metadata has no localization table; restoration stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份元数据缺少本地化表，停止恢复。"
+          }
+        }
+      }
+    },
+    "未找到 Neptune 视频目录：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neptune video directory not found: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Neptune 视频目录：%@"
+          }
+        }
+      }
+    },
+    "当前视频已是 Golden Gate，但没有 Tahoe 备份；无法把它误存为 Tahoe。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current videos are Golden Gate, but no Tahoe backup exists; they cannot be saved as Tahoe."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前视频已是 Golden Gate，但没有 Tahoe 备份；无法把它误存为 Tahoe。"
+          }
+        }
+      }
+    },
+    "不能切换到未知状态。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cannot switch to an unknown state."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不能切换到未知状态。"
+          }
+        }
+      }
+    },
+    "缺少 Golden Gate 横屏视频。请先下载两段指定的 Aerials 视频。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Golden Gate landscape videos are missing. Obtain the two specified Aerials videos first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少 Golden Gate 横屏视频。请先下载两段指定的 Aerials 视频。"
+          }
+        }
+      }
+    },
+    "Golden Gate 导入校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Golden Gate import validation failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Golden Gate 导入校验失败。"
+          }
+        }
+      }
+    },
+    "Tahoe 备份不存在。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahoe backup does not exist."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahoe 备份不存在。"
+          }
+        }
+      }
+    },
+    "ffprobe 无法读取视频轨道。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffprobe could not read the video track."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffprobe 无法读取视频轨道。"
+          }
+        }
+      }
+    },
+    "转换已取消。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conversion cancelled."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "转换已取消。"
+          }
+        }
+      }
+    },
+    "缺少 ffmpeg、ffprobe 或 x265。请安装依赖后重试；转换没有开始。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ffmpeg, ffprobe, or x265 is missing. Install the dependencies and retry; conversion did not start."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少 ffmpeg、ffprobe 或 x265。请安装依赖后重试；转换没有开始。"
+          }
+        }
+      }
+    },
+    "源视频使用 full range；当前版本不会错误地将其标记为 limited。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The source uses full range; this version will not incorrectly mark it as limited range."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源视频使用 full range；当前版本不会错误地将其标记为 limited。"
+          }
+        }
+      }
+    },
+    "App 缺少 AerialMediaHelper；请重新构建应用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AerialMediaHelper is missing from the App. Rebuild the application."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App 缺少 AerialMediaHelper；请重新构建应用。"
+          }
+        }
+      }
+    },
+    "当前转换器支持 4 分钟以内的视频；未写入墙纸资源。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The converter supports videos up to four minutes; no wallpaper resources were written."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前转换器支持 4 分钟以内的视频；未写入墙纸资源。"
+          }
+        }
+      }
+    },
+    "视频尺寸无效。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid video dimensions."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频尺寸无效。"
+          }
+        }
+      }
+    },
+    "视频太短，无法生成 240 fps 时间轴。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video is too short to create a 240 fps timeline."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频太短，无法生成 240 fps 时间轴。"
+          }
+        }
+      }
+    },
+    "无法创建转换日志。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not create conversion log."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法创建转换日志。"
+          }
+        }
+      }
+    },
+    "仅支持 MOV 或 MP4 视频。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only MOV and MP4 videos are supported."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅支持 MOV 或 MP4 视频。"
+          }
+        }
+      }
+    },
+    "视频时长无效。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid video duration."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频时长无效。"
+          }
+        }
+      }
+    },
+    "无法生成视频缩略图。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not create a video thumbnail."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法生成视频缩略图。"
+          }
+        }
+      }
+    },
+    "请先导入至少一张自定义壁纸，再创建独立分类。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import at least one custom wallpaper before creating a dedicated category."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先导入至少一张自定义壁纸，再创建独立分类。"
+          }
+        }
+      }
+    },
+    "独立自定义分类已经存在。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A dedicated Custom category already exists."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "独立自定义分类已经存在。"
+          }
+        }
+      }
+    },
+    "现有自定义资源与 App 元数据不一致；先修复后再迁移分类。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Existing custom resources do not match App metadata; repair them before migrating the category."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "现有自定义资源与 App 元数据不一致；先修复后再迁移分类。"
+          }
+        }
+      }
+    },
+    "迁移期间资源消失。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A resource disappeared during migration."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移期间资源消失。"
+          }
+        }
+      }
+    },
+    "实验模式只接受 MOV，以减少容器格式变量。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experimental mode accepts MOV only to reduce container variables."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "实验模式只接受 MOV，以减少容器格式变量。"
+          }
+        }
+      }
+    },
+    "正式导入仅接受 MOV 视频。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formal import accepts MOV videos only."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正式导入仅接受 MOV 视频。"
+          }
+        }
+      }
+    },
+    "已有一张实验壁纸。请先完成 A/B 验证或删除该实验资源。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An experimental wallpaper already exists. Finish the A/B test or remove it first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已有一张实验壁纸。请先完成 A/B 验证或删除该实验资源。"
+          }
+        }
+      }
+    },
+    "UUID 已存在；没有覆盖任何内容。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UUID already exists; nothing was overwritten."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UUID 已存在；没有覆盖任何内容。"
+          }
+        }
+      }
+    },
+    "未找到 Aerials 视频缓存目录。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aerials video cache directory not found."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Aerials 视频缓存目录。"
+          }
+        }
+      }
+    },
+    "视频主副本校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original video copy failed validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频主副本校验失败。"
+          }
+        }
+      }
+    },
+    "shotID 已存在，停止导入。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "shotID already exists; import stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "shotID 已存在，停止导入。"
+          }
+        }
+      }
+    },
+    "该资源不属于本应用，不能删除。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This resource is not owned by the App and cannot be deleted."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "该资源不属于本应用，不能删除。"
+          }
+        }
+      }
+    },
+    "manifest 中已缺少该资源；请先检查或修复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This resource is missing from the manifest; inspect or repair it first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 中已缺少该资源；请先检查或修复。"
+          }
+        }
+      }
+    },
+    "manifest 中的同 ID 资源不匹配；拒绝删除。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The manifest resource with this ID does not match; deletion refused."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 中的同 ID 资源不匹配；拒绝删除。"
+          }
+        }
+      }
+    },
+    "该资源不属于本应用，不能修复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This resource is not owned by the App and cannot be repaired."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "该资源不属于本应用，不能修复。"
+          }
+        }
+      }
+    },
+    "主副本 SHA-256 不匹配；停止修复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original copy SHA-256 mismatch; repair stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主副本 SHA-256 不匹配；停止修复。"
+          }
+        }
+      }
+    },
+    "元数据无法读取。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read metadata."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元数据无法读取。"
+          }
+        }
+      }
+    },
+    "未找到本 App 的旧版自定义壁纸。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No legacy custom wallpaper owned by this App was found."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到本 App 的旧版自定义壁纸。"
+          }
+        }
+      }
+    },
+    "旧版视频主副本缺失或 SHA-256 不匹配；已停止迁移。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy original video is missing or has a SHA-256 mismatch; migration stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版视频主副本缺失或 SHA-256 不匹配；已停止迁移。"
+          }
+        }
+      }
+    },
+    "旧版 manifest 条目缺失或身份不匹配。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy manifest entry is missing or its identity differs."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版 manifest 条目缺失或身份不匹配。"
+          }
+        }
+      }
+    },
+    "旧版顶层分类已变化；已停止迁移。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy top-level category changed; migration stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版顶层分类已变化；已停止迁移。"
+          }
+        }
+      }
+    },
+    "缩略图缓存校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thumbnail cache validation failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缩略图缓存校验失败。"
+          }
+        }
+      }
+    },
+    "无法安装缩略图缓存。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not install thumbnail cache."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法安装缩略图缓存。"
+          }
+        }
+      }
+    },
+    "同 UUID 的 PNG 缩略图已存在，拒绝覆盖。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A PNG thumbnail with this UUID exists; overwrite refused."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同 UUID 的 PNG 缩略图已存在，拒绝覆盖。"
+          }
+        }
+      }
+    },
+    "无法读取 App 自有视频缩略图并生成 PNG。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not create a PNG from the App-owned video thumbnail."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法读取 App 自有视频缩略图并生成 PNG。"
+          }
+        }
+      }
+    },
+    "PNG 缩略图编码失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG thumbnail encoding failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 缩略图编码失败。"
+          }
+        }
+      }
+    },
+    "PNG 缩略图复读校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG thumbnail failed readback validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 缩略图复读校验失败。"
+          }
+        }
+      }
+    },
+    "PNG 缩略图原子安装失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atomic installation of PNG thumbnail failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 缩略图原子安装失败。"
+          }
+        }
+      }
+    },
+    "元数据版本不受支持。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unsupported metadata version."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元数据版本不受支持。"
+          }
+        }
+      }
+    },
+    "entries.json 顶层不是 JSON 对象。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json root is not a JSON object."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json 顶层不是 JSON 对象。"
+          }
+        }
+      }
+    },
+    "entries.json 缺少 assets 数组。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json has no assets array."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json 缺少 assets 数组。"
+          }
+        }
+      }
+    },
+    "entries.json 缺少 categories 数组。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json has no categories array."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entries.json 缺少 categories 数组。"
+          }
+        }
+      }
+    },
+    "manifest 资源 ID 冲突。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest asset ID conflict."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 资源 ID 冲突。"
+          }
+        }
+      }
+    },
+    "Mac 分类结构无效。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac category structure is invalid."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac 分类结构无效。"
+          }
+        }
+      }
+    },
+    "未找到 Mac 分类及其 subcategories。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac category or its subcategories were not found."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Mac 分类及其 subcategories。"
+          }
+        }
+      }
+    },
+    "自定义子分类含有非本 App 管理的资源；已停止修改。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom subcategory contains resources not managed by this App; changes stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义子分类含有非本 App 管理的资源；已停止修改。"
+          }
+        }
+      }
+    },
+    "自定义子分类 ID 已被其他内容占用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom subcategory ID is occupied by other content."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义子分类 ID 已被其他内容占用。"
+          }
+        }
+      }
+    },
+    "独立自定义分类包含非本 App 资源，停止修改。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dedicated Custom category contains resources not owned by this App; changes stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "独立自定义分类包含非本 App 资源，停止修改。"
+          }
+        }
+      }
+    },
+    "独立自定义分类 ID 已被其他内容占用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dedicated Custom category ID is occupied by other content."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "独立自定义分类 ID 已被其他内容占用。"
+          }
+        }
+      }
+    },
+    "未找到已验证的 Mac 分类和 Apple HTTPS 素材模板；停止实验导入。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verified Mac category and Apple HTTPS template were not found; experimental import stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到已验证的 Mac 分类和 Apple HTTPS 素材模板；停止实验导入。"
+          }
+        }
+      }
+    },
+    "自定义分类 ID 已被其他内容占用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom category ID is occupied by other content."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义分类 ID 已被其他内容占用。"
+          }
+        }
+      }
+    },
+    "manifest 在备份期间变化；已停止写入。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest changed during backup; write stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 在备份期间变化；已停止写入。"
+          }
+        }
+      }
+    },
+    "临时 manifest 无效。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporary manifest is invalid."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "临时 manifest 无效。"
+          }
+        }
+      }
+    },
+    "临时 manifest 复读不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporary manifest failed readback validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "临时 manifest 复读不一致。"
+          }
+        }
+      }
+    },
+    "manifest 在写入期间变化；已停止替换。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest changed during writing; replacement stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 在写入期间变化；已停止替换。"
+          }
+        }
+      }
+    },
+    "同 UUID 缓存已存在。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cache file with this UUID already exists."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同 UUID 缓存已存在。"
+          }
+        }
+      }
+    },
+    "Aerials 缓存校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aerials cache validation failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aerials 缓存校验失败。"
+          }
+        }
+      }
+    },
+    "缺少 sgpd(tscl) 或 csgm(tscl)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missing sgpd(tscl) or csgm(tscl)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少 sgpd(tscl) 或 csgm(tscl)"
+          }
+        }
+      }
+    },
+    "MOV 不是可读取的 hvc1 HEVC 视频": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV is not a readable hvc1 HEVC video"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV 不是可读取的 hvc1 HEVC 视频"
+          }
+        }
+      }
+    },
+    "HEVC profile、像素格式或 BT.709 limited 色彩标记不符": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEVC profile, pixel format, or BT.709 limited-range tags do not match"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEVC profile、像素格式或 BT.709 limited 色彩标记不符"
+          }
+        }
+      }
+    },
+    "输出宽度不符合预期": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Output width does not match"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输出宽度不符合预期"
+          }
+        }
+      }
+    },
+    "输出高度不符合预期": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Output height does not match"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输出高度不符合预期"
+          }
+        }
+      }
+    },
+    "AVAssetReader 无法启动": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVAssetReader could not start"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVAssetReader 无法启动"
+          }
+        }
+      }
+    },
+    "视频帧缺少 NAL 数据": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video frame has no NAL data"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频帧缺少 NAL 数据"
+          }
+        }
+      }
+    },
+    "样本无法读取 NAL": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read NAL from sample"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "样本无法读取 NAL"
+          }
+        }
+      }
+    },
+    "样本时间戳无效": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid sample timestamp"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "样本时间戳无效"
+          }
+        }
+      }
+    },
+    "未找到全部五层 temporal level": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not all five temporal levels were found"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到全部五层 temporal level"
+          }
+        }
+      }
+    },
+    "首尾时间戳与视频时长不一致": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First or last timestamp differs from video duration"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "首尾时间戳与视频时长不一致"
+          }
+        }
+      }
+    },
+    "MOV atom 结构损坏。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV atom structure is damaged."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV atom 结构损坏。"
+          }
+        }
+      }
+    },
+    "已处理 %@ / %@ 秒 · %d%%": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processed %@ / %@ s · %d%%"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已处理 %@ / %@ 秒 · %d%%"
+          }
+        }
+      }
+    },
+    " · 预计剩余约 %d 分钟": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · about %d min remaining"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · 预计剩余约 %d 分钟"
+          }
+        }
+      }
+    },
+    "%lld×%lld · %lld 秒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld × %lld · %lld s"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld×%lld · %lld 秒"
+          }
+        }
+      }
+    },
+    "视频已切换；无法刷新：%@。可注销后重新登录。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videos switched, but these processes could not be refreshed: %@. Sign out and back in if needed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频已切换；无法刷新：%@。可注销后重新登录。"
+          }
+        }
+      }
+    },
+    "正在复核动态壁纸兼容性…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking dynamic wallpaper compatibility…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在复核动态壁纸兼容性…"
+          }
+        }
+      }
+    },
+    "保存视频主副本…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saving original video copy…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存视频主副本…"
+          }
+        }
+      }
+    },
+    "安装 Aerials 视频缓存…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installing Aerials video cache…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安装 Aerials 视频缓存…"
+          }
+        }
+      }
+    },
+    "发现上次中断的切换：%@。请先使用恢复操作。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An interrupted switch was found: %@. Recover it before proceeding."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发现上次中断的切换：%@。请先使用恢复操作。"
+          }
+        }
+      }
+    },
+    "发现未完成的 Tahoe 备份。请检查 %@，应用不会覆盖它。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An incomplete Tahoe backup was found. Inspect %@; the App will not overwrite it."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发现未完成的 Tahoe 备份。请检查 %@，应用不会覆盖它。"
+          }
+        }
+      }
+    },
+    "备份 %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backing up %@…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份 %@…"
+          }
+        }
+      }
+    },
+    "当前文件不符合原版 Tahoe SHA-256：%@。未建立备份。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current file does not match the original Tahoe SHA-256: %@. No backup was created."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前文件不符合原版 Tahoe SHA-256：%@。未建立备份。"
+          }
+        }
+      }
+    },
+    "备份校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup validation failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份校验失败：%@"
+          }
+        }
+      }
+    },
+    "保存 Golden Gate %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saving Golden Gate %@…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存 Golden Gate %@…"
+          }
+        }
+      }
+    },
+    "事务缺少恢复清单，请手动检查：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transaction lacks a recovery manifest. Inspect it manually: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "事务缺少恢复清单，请手动检查：%@"
+          }
+        }
+      }
+    },
+    "恢复副本校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovery copy failed validation: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复副本校验失败：%@"
+          }
+        }
+      }
+    },
+    "恢复临时文件校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovery temporary file failed validation: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复临时文件校验失败：%@"
+          }
+        }
+      }
+    },
+    "Tahoe 备份损坏或不完整：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahoe backup is damaged or incomplete: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahoe 备份损坏或不完整：%@"
+          }
+        }
+      }
+    },
+    "校验并准备 %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Validating and preparing %@…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "校验并准备 %@…"
+          }
+        }
+      }
+    },
+    "临时副本校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporary copy failed validation: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "临时副本校验失败：%@"
+          }
+        }
+      }
+    },
+    "原视频安全副本校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Safety copy of the original video failed validation: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原视频安全副本校验失败：%@"
+          }
+        }
+      }
+    },
+    "切换 %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switching %@…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切换 %@…"
+          }
+        }
+      }
+    },
+    "替换后校验失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post-replacement validation failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "替换后校验失败：%@"
+          }
+        }
+      }
+    },
+    "文件不存在：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File does not exist: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件不存在：%@"
+          }
+        }
+      }
+    },
+    "不是有效的 MOV 文件：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not a valid MOV file: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不是有效的 MOV 文件：%@"
+          }
+        }
+      }
+    },
+    "无法原子替换 %@：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not atomically replace %@: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法原子替换 %@：%@"
+          }
+        }
+      }
+    },
+    "源视频为 %@，当前已验证的 BT.709 转换链不能安全处理该色彩格式。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source color format is %@. The verified BT.709 conversion path cannot safely process it."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源视频为 %@，当前已验证的 BT.709 转换链不能安全处理该色彩格式。"
+          }
+        }
+      }
+    },
+    "视频编码失败。ffmpeg=%d，x265=%d。%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video encoding failed. ffmpeg=%d, x265=%d. %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频编码失败。ffmpeg=%d，x265=%d。%@"
+          }
+        }
+      }
+    },
+    "MOV 封装失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV packaging failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV 封装失败：%@"
+          }
+        }
+      }
+    },
+    "AVFoundation 无法读取视频轨道：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVFoundation could not read the video track: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVFoundation 无法读取视频轨道：%@"
+          }
+        }
+      }
+    },
+    "POC 文件哈希已变化，拒绝删除：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "POC file checksum changed; deletion refused: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "POC 文件哈希已变化，拒绝删除：%@"
+          }
+        }
+      }
+    },
+    "POC 资源归属不匹配：%@。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "POC resource ownership mismatch: %@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "POC 资源归属不匹配：%@。"
+          }
+        }
+      }
+    },
+    "主副本丢失：%@。不会删除现有 manifest 条目。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original copy missing: %@. The manifest entry will remain."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主副本丢失：%@。不会删除现有 manifest 条目。"
+          }
+        }
+      }
+    },
+    "自定义资源元数据损坏：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom asset metadata is damaged: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义资源元数据损坏：%@"
+          }
+        }
+      }
+    },
+    "未找到 Aerials entries.json：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aerials entries.json not found: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Aerials entries.json：%@"
+          }
+        }
+      }
+    },
+    "manifest 原子替换失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atomic manifest replacement failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 原子替换失败：%@"
+          }
+        }
+      }
+    },
+    "manifest 替换后复读不一致；备份保留在 %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest readback mismatch after replacement; backup retained at %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "manifest 替换后复读不一致；备份保留在 %@"
+          }
+        }
+      }
+    },
+    "Aerials 缓存原子安装失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atomic Aerials cache installation failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aerials 缓存原子安装失败：%@"
+          }
+        }
+      }
+    },
+    "视频帧 %lld 缺少 temporal attachment": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video frame %lld lacks a temporal attachment"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频帧 %lld 缺少 temporal attachment"
+          }
+        }
+      }
+    },
+    "样本 %lld 的 NAL temporal_id 与 Reader 附件不匹配": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sample %lld NAL temporal ID does not match the Reader attachment"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "样本 %lld 的 NAL temporal_id 与 Reader 附件不匹配"
+          }
+        }
+      }
+    },
+    "Reader 未完整读取全部样本：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reader did not read every sample: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reader 未完整读取全部样本：%@"
+          }
+        }
+      }
+    },
+    "帧数不符：%lld / %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frame count mismatch: %lld / %lld"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "帧数不符：%lld / %lld"
+          }
+        }
+      }
+    },
+    "240 fps 时间轴存在缺帧或额外时间偏移（%lld 帧，tick %lld…%lld，缺少 %@）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "240 fps timeline has missing frames or extra offsets (%lld frames, ticks %lld…%lld, missing %@)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "240 fps 时间轴存在缺帧或额外时间偏移（%lld 帧，tick %lld…%lld，缺少 %@）"
+          }
+        }
+      }
+    },
+    "完整解码失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full decode failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完整解码失败：%@"
+          }
+        }
+      }
+    },
+    "转换结果未通过动态壁纸兼容性校验：%@。没有写入 manifest。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Converted video failed dynamic wallpaper compatibility validation: %@. The manifest was not changed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "转换结果未通过动态壁纸兼容性校验：%@。没有写入 manifest。"
+          }
+        }
+      }
+    },
+    "当前 Aerials 目录缺少系统 Mac 分类或 Mac Blue；停止清理，请先恢复目录。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current Aerials catalog lacks the system Mac category or Mac Blue. Cleanup stopped; restore the catalog first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前 Aerials 目录缺少系统 Mac 分类或 Mac Blue；停止清理，请先恢复目录。"
+          }
+        }
+      }
+    },
+    "POC 删除前 manifest 发生变化。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest changed before POC deletion."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "POC 删除前 manifest 发生变化。"
+          }
+        }
+      }
+    },
+    "Mac Blue 控制测试已在进行；请先观察或恢复。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue control test is already active; observe or restore it first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 控制测试已在进行；请先观察或恢复。"
+          }
+        }
+      }
+    },
+    "请先删除本 App 的 Mac Blue 克隆测试 asset。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove this App's Mac Blue clone test asset first."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先删除本 App 的 Mac Blue 克隆测试 asset。"
+          }
+        }
+      }
+    },
+    "Mac Blue 完整备份复读不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue full backup failed readback validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 完整备份复读不一致。"
+          }
+        }
+      }
+    },
+    "Mac Blue 控制测试写回后重读不一致；可用恢复按钮回滚。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue control test readback mismatch; use Restore to roll back."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 控制测试写回后重读不一致；可用恢复按钮回滚。"
+          }
+        }
+      }
+    },
+    "没有 Mac Blue 控制测试备份。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Mac Blue control test backup exists."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有 Mac Blue 控制测试备份。"
+          }
+        }
+      }
+    },
+    "Mac Blue 控制测试备份不是有效 JSON。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue control test backup is not valid JSON."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 控制测试备份不是有效 JSON。"
+          }
+        }
+      }
+    },
+    "恢复临时文件校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovery temporary file failed validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复临时文件校验失败。"
+          }
+        }
+      }
+    },
+    "恢复期间 manifest 变化；已停止替换。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest changed during recovery; replacement stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复期间 manifest 变化；已停止替换。"
+          }
+        }
+      }
+    },
+    "Mac Blue 备份恢复后复读不一致。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue backup readback mismatch after recovery."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 备份恢复后复读不一致。"
+          }
+        }
+      }
+    },
+    "请先确认 Mac Blue 排序确实变化，并恢复控制测试。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm that Mac Blue moved, then restore the control test."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先确认 Mac Blue 排序确实变化，并恢复控制测试。"
+          }
+        }
+      }
+    },
+    "已有本 App 的 Mac Blue 克隆测试 asset。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A Mac Blue clone test asset owned by this App already exists."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已有本 App 的 Mac Blue 克隆测试 asset。"
+          }
+        }
+      }
+    },
+    "测试 UUID 已被占用。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Test UUID is already in use."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "测试 UUID 已被占用。"
+          }
+        }
+      }
+    },
+    "未找到 Mac Blue 原生 PNG 缩略图；停止克隆测试。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native Mac Blue PNG thumbnail not found; clone test stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Mac Blue 原生 PNG 缩略图；停止克隆测试。"
+          }
+        }
+      }
+    },
+    "克隆 UUID 的缩略图已存在，拒绝覆盖。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A thumbnail with the clone UUID exists; overwrite refused."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "克隆 UUID 的缩略图已存在，拒绝覆盖。"
+          }
+        }
+      }
+    },
+    "Mac Blue 缩略图复制校验失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue thumbnail copy failed validation."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 缩略图复制校验失败。"
+          }
+        }
+      }
+    },
+    "Mac Blue 克隆缩略图安装失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue clone thumbnail installation failed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 克隆缩略图安装失败。"
+          }
+        }
+      }
+    },
+    "Mac Blue 克隆写回后重读失败。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue clone failed readback after writing."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 克隆写回后重读失败。"
+          }
+        }
+      }
+    },
+    "没有本 App 记录的 Mac Blue 克隆测试 asset。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Mac Blue clone test asset is recorded by this App."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有本 App 记录的 Mac Blue 克隆测试 asset。"
+          }
+        }
+      }
+    },
+    "同 UUID 的 asset 已变化；拒绝删除。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asset with the same UUID changed; deletion refused."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同 UUID 的 asset 已变化；拒绝删除。"
+          }
+        }
+      }
+    },
+    "克隆缩略图已被其他内容替换；已保留文件供检查。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clone thumbnail was replaced by other content; the file was retained for inspection."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "克隆缩略图已被其他内容替换；已保留文件供检查。"
+          }
+        }
+      }
+    },
+    "Mac Blue 模板与预期不符；停止测试。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue template differs from expectations; test stopped."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 模板与预期不符；停止测试。"
+          }
+        }
+      }
+    },
+    "缺少 Mac Blue。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue is missing."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少 Mac Blue。"
+          }
+        }
+      }
+    },
+    "找不到本应用拥有的实验资源。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No experimental resource owned by this App was found."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到本应用拥有的实验资源。"
+          }
+        }
+      }
+    },
+    "不存在": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Absent"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不存在"
+          }
+        }
+      }
+    },
+    "正在备份并调整 Mac Blue 排序…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backing up and moving Mac Blue…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在备份并调整 Mac Blue 排序…"
+          }
+        }
+      }
+    },
+    "正在恢复 Mac Blue 原始清单…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restoring the original Mac Blue manifest…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在恢复 Mac Blue 原始清单…"
+          }
+        }
+      }
+    },
+    "Mac Blue 原始清单已恢复；已记录你观察到排序变化，可以运行实验 2。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Mac Blue manifest restored. Your observed order change is recorded; experiment 2 is available."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 原始清单已恢复；已记录你观察到排序变化，可以运行实验 2。"
+          }
+        }
+      }
+    },
+    "Mac Blue 原始清单已恢复；停止新增 asset 实验，请先查实际数据源。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Mac Blue manifest restored. Stop new asset experiments and inspect the actual data source."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 原始清单已恢复；停止新增 asset 实验，请先查实际数据源。"
+          }
+        }
+      }
+    },
+    "正在复制 Mac Blue 测试 asset…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloning Mac Blue test asset…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在复制 Mac Blue 测试 asset…"
+          }
+        }
+      }
+    },
+    "正在删除本 App 的 Mac Blue 克隆…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removing this App's Mac Blue clone…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在删除本 App 的 Mac Blue 克隆…"
+          }
+        }
+      }
+    },
+    "Mac Blue 克隆测试 asset 已删除。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue clone test asset removed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 克隆测试 asset 已删除。"
+          }
+        }
+      }
+    },
+    "操作未完成；请检查状态后再试。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operation incomplete. Check the current state before retrying."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作未完成；请检查状态后再试。"
+          }
+        }
+      }
+    },
+    "正在按 UUID 和 SHA-256 清理三张 POC 卡…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removing three POC cards by UUID and SHA-256…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在按 UUID 和 SHA-256 清理三张 POC 卡…"
+          }
+        }
+      }
+    },
+    "开发者诊断": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Developer Diagnostics"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开发者诊断"
+          }
+        }
+      }
+    },
+    "已完成的 A/B 控件保留供排查使用；正常导入不需要运行。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completed A/B controls remain for troubleshooting. Normal import does not use them."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已完成的 A/B 控件保留供排查使用；正常导入不需要运行。"
+          }
+        }
+      }
+    },
+    "Manifest 控制测试": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest Control Test"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifest 控制测试"
+          }
+        }
+      }
+    },
+    "恢复 Manifest 控制测试": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Manifest Control Test"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复 Manifest 控制测试"
+          }
+        }
+      }
+    },
+    "Mac Blue 已前移：恢复并解锁实验 2": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue Moved: Restore and Enable Experiment 2"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 已前移：恢复并解锁实验 2"
+          }
+        }
+      }
+    },
+    "新增 Mac Blue 克隆测试卡": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Mac Blue Clone Test Card"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增 Mac Blue 克隆测试卡"
+          }
+        }
+      }
+    },
+    "删除本次克隆测试卡": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove This Clone Test Card"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除本次克隆测试卡"
+          }
+        }
+      }
+    },
+    "诊断信息": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostics"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "诊断信息"
+          }
+        }
+      }
+    },
+    "复制诊断信息": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy Diagnostics"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "复制诊断信息"
+          }
+        }
+      }
+    },
+    "操作完成；请在系统设置 → 墙纸中查看。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Operation complete. Check it in System Settings → Wallpaper."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作完成；请在系统设置 → 墙纸中查看。"
+          }
+        }
+      }
+    },
+    "切换失败，且回滚未完成：%@。原视频副本保留在 %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch failed and rollback was incomplete: %@. Original video copies remain at %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切换失败，且回滚未完成：%@。原视频副本保留在 %@"
+          }
+        }
+      }
+    },
+    "App 缺少 POC 所有权记录：%@。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The App lacks a POC ownership record for %@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App 缺少 POC 所有权记录：%@。"
+          }
+        }
+      }
+    },
+    "当前 manifest 除 Mac Blue 排序外还发生变化；为避免覆盖新内容，已停止自动恢复。完整备份保留在 %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The manifest changed beyond Mac Blue order. Automatic recovery stopped to preserve new content. Full backup remains at %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前 manifest 除 Mac Blue 排序外还发生变化；为避免覆盖新内容，已停止自动恢复。完整备份保留在 %@"
+          }
+        }
+      }
+    },
+    "Mac Blue 备份原子恢复失败：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atomic restoration of the Mac Blue backup failed: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac Blue 备份原子恢复失败：%@"
+          }
+        }
+      }
+    },
+    "恢复后文件与完整备份不一致：%@，预期=%@，实际=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restored file differs from full backup: %@, expected=%@, actual=%@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复后文件与完整备份不一致：%@，预期=%@，实际=%@"
+          }
+        }
+      }
+    },
+    "未知错误": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown error"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未知错误"
+          }
+        }
+      }
+    },
+    "输出时长与源视频不符：%lf / %lf": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Output duration differs from source: %lf / %lf"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输出时长与源视频不符：%lf / %lf"
+          }
+        }
+      }
+    },
+    "视频帧未按 240 fps CFR 时间轴排列（帧 %lld，PTS %lf，tick %lld）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frame does not follow the 240 fps CFR timeline (frame %lld, PTS %lf, tick %lld)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频帧未按 240 fps CFR 时间轴排列（帧 %lld，PTS %lf，tick %lld）"
+          }
+        }
+      }
+    },
+    " · 往返": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · Forward/Reverse"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · 往返"
+          }
+        }
+      }
+    },
+    "正放后倒放（首尾相接）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play forward, then reverse (seamless loop)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正放后倒放（首尾相接）"
+          }
+        }
+      }
+    },
+    "预计成片约 %@ 秒；会去掉两端重复画面。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimated output: about %@ seconds; duplicate endpoint frames are removed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预计成片约 %@ 秒；会去掉两端重复画面。"
+          }
+        }
+      }
+    },
+    "往返成片最多 4 分钟，请选择较短的视频。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The forward-and-reverse result must be under four minutes. Choose a shorter video."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "往返成片最多 4 分钟，请选择较短的视频。"
+          }
+        }
+      }
+    },
+    "源视频色彩标记 %@=%@ 暂不支持安全转换。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source color tag %@=%@ cannot be converted safely yet."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源视频色彩标记 %@=%@ 暂不支持安全转换。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

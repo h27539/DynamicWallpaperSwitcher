@@ -89,7 +89,8 @@ public struct AerialCompatibilityChecker {
             lastPTS = max(lastPTS ?? pts, pts)
         }
         guard reader.status == .completed, count > 0, count == matched, auxiliary <= 16 else {
-            throw failure("Reader 未完整读取全部样本：\(reader.error?.localizedDescription ?? "未知错误")")
+            let readerIssue = reader.error?.localizedDescription ?? String(localized: "未知错误")
+            throw failure("Reader 未完整读取全部样本：\(readerIssue)")
         }
         if let expectedFrames, count != expectedFrames {
             throw failure("帧数不符：\(count) / \(expectedFrames)")
@@ -120,8 +121,9 @@ public struct AerialCompatibilityChecker {
         return .init(sampleCount: count, matchedTemporalSamples: matched, duration: details.duration, levels: levels)
     }
 
-    private func failure(_ reason: String) -> SwitcherError {
-        SwitcherError("转换结果未通过动态壁纸兼容性校验：\(reason)。没有写入 manifest。")
+    private func failure(_ reason: LocalizedStringResource) -> SwitcherError {
+        let explanation = String(localized: reason)
+        return SwitcherError("转换结果未通过动态壁纸兼容性校验：\(explanation)。没有写入 manifest。")
     }
 }
 

@@ -10,7 +10,11 @@ final class CustomAerialsViewModel: ObservableObject {
     @Published var error: String?
     @Published var candidateURL: URL?
     @Published var candidateDetails: VideoDetails?
-    @Published var candidateWarning = false
+    @Published var pingPong = false
+    var candidateWarning: Bool {
+        guard let duration = candidateDetails?.duration else { return false }
+        return duration * (pingPong ? 2 : 1) > 240
+    }
     @Published var quality: QualityPreset = .standard
     @Published var conversionProgress: ConversionProgress?
     @Published var dependencies = AerialVideoConverter.dependencies()
@@ -65,7 +69,7 @@ final class CustomAerialsViewModel: ObservableObject {
                     await MainActor.run {
                         self.candidateURL = url
                         self.candidateDetails = details
-                        self.candidateWarning = details.duration > 240
+                        self.pingPong = false
                         self.busy = false
                         self.status = "视频可读取，请选择质量。"
                     }
@@ -84,6 +88,7 @@ final class CustomAerialsViewModel: ObservableObject {
         guard let url = candidateURL else { return }
         let inputDetails = candidateDetails
         let selectedQuality = quality
+        let selectedPingPong = pingPong
         candidateURL = nil
         candidateDetails = nil
         busy = true
@@ -102,7 +107,7 @@ final class CustomAerialsViewModel: ObservableObject {
                 try FileManager.default.createDirectory(at: scratch, withIntermediateDirectories: true)
                 let thumbnail = scratch.appendingPathComponent("thumbnail.jpg")
                 try AVFoundationVideoInspector().thumbnail(url, to: thumbnail)
-                let existingReport = url.pathExtension.lowercased() == "mov"
+                let existingReport = !selectedPingPong && url.pathExtension.lowercased() == "mov"
                     ? try? AerialCompatibilityChecker().check(url, ffmpeg: FFmpegLocator.locate(), cancellation: token)
                     : nil
                 let converted: ConvertedAerialVideo
@@ -111,7 +116,8 @@ final class CustomAerialsViewModel: ObservableObject {
                     await MainActor.run { self.status = "视频已兼容，正在安装…" }
                 } else {
                     converted = try AerialVideoConverter().convert(url, details: inputDetails,
-                        options: .init(quality: selectedQuality), scratch: scratch, cancellation: token,
+                        options: .init(quality: selectedQuality, pingPong: selectedPingPong),
+                        scratch: scratch, cancellation: token,
                         progress: { value in
                             Task { @MainActor in
                                 self.conversionProgress = value
@@ -127,7 +133,8 @@ final class CustomAerialsViewModel: ObservableObject {
                 }
                 let asset = try manager.importConvertedVideo(converted.movie,
                     sourceFilename: url.lastPathComponent,
-                    displayName: url.deletingPathExtension().lastPathComponent,
+                    displayName: url.deletingPathExtension().lastPathComponent +
+                        (selectedPingPong ? AppStrings.text(" · 往返") : ""),
                     thumbnail: thumbnail, progress: { message in
                     Task { @MainActor in self.status = message }
                 })
@@ -272,13 +279,6 @@ final class CustomAerialsViewModel: ObservableObject {
 
     func delete(_ id: String) { run("正在删除…") { try CustomAerialManager().delete(id) } }
 
-    func cleanupPOCCards() {
-        run("正在按 UUID 和 SHA-256 清理三张 POC 卡…") {
-            let count = try CustomAerialManager().cleanupVerifiedPOCCards()
-            NSLog("DynamicWallpaperSwitcher removed %d owned POC cards", count)
-        }
-    }
-
     func migrate(_ id: String) { run("正在迁移旧版壁纸…") { try CustomAerialManager().migrateLegacy(id) } }
 
     private func run(_ message: String, operation: @escaping () throws -> Void) {
@@ -288,7 +288,7 @@ final class CustomAerialsViewModel: ObservableObject {
         Task.detached {
             do {
                 try operation()
-                let restart = Self.refreshExperimentalProcesses()
+                _ = Self.refreshExperimentalProcesses()
                 await MainActor.run {
                     if let settings = URL(string: "x-apple.systempreferences:com.apple.Wallpaper-Settings.extension") {
                         NSWorkspace.shared.open(settings)
@@ -305,7 +305,7 @@ final class CustomAerialsViewModel: ObservableObject {
                     self.items = result
                     self.localizationStatus = localizationStatus
                     self.diagnosticText = diagnosis ?? ""
-                    self.status = "操作完成；\(restart)。请在系统设置 → 墙纸中查看。"
+                    self.status = AppStrings.text("操作完成；请在系统设置 → 墙纸中查看。")
                     self.busy = false
                 }
             } catch {
@@ -389,13 +389,23 @@ struct CustomAerialsView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 3) {
                     Text("自定义动态壁纸").font(.title2.bold())
-                    Text("添加视频后可在系统设置 → 墙纸 → 自定义中选择")
+                    Text("将普通视频转换为 macOS 原生 Aerial 动态壁纸。锁屏时播放，解锁后自然停留在桌面背景。")
                         .foregroundStyle(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
                 Spacer()
                 Button("+ 添加视频") { model.chooseVideo() }
                     .buttonStyle(.borderedProminent).disabled(model.busy)
             }
+            HStack(spacing: 12) {
+                Text("环境").font(.footnote.bold())
+                Text(model.dependencies.ffmpeg == nil ? "ffmpeg 未找到" : "ffmpeg ✓")
+                Text(model.dependencies.ffprobe == nil ? "ffprobe 未找到" : "ffprobe ✓")
+                Text(model.dependencies.x265 == nil ? "x265 未找到" : "x265 ✓")
+                if let architecture = model.dependencies.x265Architecture { Text(AppStrings.text(architecture)) }
+            }.font(.footnote).foregroundStyle(model.dependencies.ready ? Color.secondary : Color.orange)
+
+            Text("我的动态壁纸").font(.headline)
             if customItems.isEmpty {
                 VStack(spacing: 8) {
                     Image(systemName: "film").font(.largeTitle).foregroundStyle(.secondary)
@@ -405,13 +415,13 @@ struct CustomAerialsView: View {
             } else {
                 LazyVStack(spacing: 10) { ForEach(customItems) { item in row(item) } }
             }
-            HStack(spacing: 12) {
-                Text("环境检查").font(.footnote.bold())
-                Text(model.dependencies.ffmpeg == nil ? "ffmpeg 未找到" : "ffmpeg ✓")
-                Text(model.dependencies.ffprobe == nil ? "ffprobe 未找到" : "ffprobe ✓")
-                Text(model.dependencies.x265 == nil ? "x265 未找到" : "x265 ✓")
-                if let version = model.dependencies.x265Version { Text(version).lineLimit(1) }
-            }.font(.footnote).foregroundStyle(model.dependencies.ready ? Color.secondary : Color.orange)
+            DisclosureGroup("高级设置") {
+            VStack(alignment: .leading, spacing: 10) {
+            Text("App 架构：Universal（Intel + Apple Silicon）")
+            Text(String(format: AppStrings.text("当前运行：%@"), RuntimeArchitecture.label))
+            if let ffmpeg = model.dependencies.ffmpeg { Text(String(format: AppStrings.text("ffmpeg：%@"), ffmpeg.path)) }
+            if let x265 = model.dependencies.x265 { Text(String(format: AppStrings.text("x265：%@"), x265.path)) }
+            if let version = model.dependencies.x265Version { Text(version).lineLimit(2) }
             HStack {
                 if model.localizationStatus?.categoryPresent == true {
                     Label("独立“自定义”分类已启用", systemImage: "checkmark.circle.fill")
@@ -431,7 +441,7 @@ struct CustomAerialsView: View {
                     .foregroundStyle(.orange)
             }
             if !legacyItems.isEmpty {
-                DisclosureGroup("旧版自定义壁纸（\(legacyItems.count)）") {
+                DisclosureGroup(String(format: AppStrings.text("旧版自定义壁纸（%lld）"), legacyItems.count)) {
                     Text("迁移会保留原 UUID 和视频主副本，改用当前自定义分类。旧 MP4 素材只搬迁文件，播放兼容性仍需实机确认。")
                         .font(.footnote).foregroundStyle(.secondary)
                     ForEach(legacyItems) { item in
@@ -471,6 +481,8 @@ struct CustomAerialsView: View {
                 }.padding(.top, 6)
             }
             #endif
+            }.font(.footnote)
+            }
 
             if let error = model.error {
                 Text(error).foregroundStyle(.red).font(.callout).textSelection(.enabled)
@@ -479,12 +491,17 @@ struct CustomAerialsView: View {
                 if let conversion = model.conversionProgress {
                     VStack(alignment: .leading, spacing: 3) {
                         ProgressView(value: conversion.fraction)
-                        Text("已处理 \(String(format: "%.1f", conversion.elapsedVideoSeconds)) / \(String(format: "%.1f", Double(conversion.totalFrames) / 240)) 秒 · \(Int(conversion.fraction * 100))%" +
-                             (conversion.remainingSeconds.map { " · 预计剩余约 \(Int($0 / 60) + 1) 分钟" } ?? ""))
+                        Text(String(format: AppStrings.text("已处理 %@ / %@ 秒 · %d%%"),
+                                    String(format: "%.1f", conversion.elapsedVideoSeconds),
+                                    String(format: "%.1f", Double(conversion.totalFrames) / 240),
+                                    Int(conversion.fraction * 100)) +
+                             (conversion.remainingSeconds.map {
+                                String(format: AppStrings.text(" · 预计剩余约 %d 分钟"), Int($0 / 60) + 1)
+                             } ?? ""))
                             .font(.caption).foregroundStyle(.secondary)
                     }.frame(width: 220)
                 } else if model.busy { ProgressView().controlSize(.small) }
-                Text(model.status).font(.footnote).foregroundStyle(.secondary)
+                Text(AppStrings.text(model.status)).font(.footnote).foregroundStyle(.secondary)
                 Spacer()
                 if model.busy && model.canCancel {
                     Button("取消") { model.cancelConversion() }
@@ -506,22 +523,28 @@ struct CustomAerialsView: View {
                 Text("添加自定义动态壁纸").font(.title3.bold())
                 Text(model.candidateURL?.lastPathComponent ?? "").lineLimit(2)
                 if let details = model.candidateDetails {
-                    Text("视频：\(details.codec)")
-                    Text("分辨率：\(details.width)×\(details.height)")
-                    Text("帧率：\(Int(details.frameRate.rounded())) fps")
-                    Text("长度：\(String(format: "%.1f", details.duration)) 秒")
+                    Text(String(format: AppStrings.text("视频：%@"), details.codec))
+                    Text(String(format: AppStrings.text("分辨率：%lld×%lld"), details.width, details.height))
+                    Text(String(format: AppStrings.text("帧率：%lld fps"), Int(details.frameRate.rounded())))
+                    Text(String(format: AppStrings.text("长度：%@ 秒"), String(format: "%.1f", details.duration)))
                     let size = AerialResolution.output(width: details.width, height: details.height)
-                    Text("输出：\(size.0)×\(size.1) · 240 fps")
+                    Text(String(format: AppStrings.text("输出：%lld×%lld · 240 fps"), size.0, size.1))
                     if model.candidateWarning {
-                        Text("当前版本最多转换 4 分钟视频。")
+                        Text(AppStrings.text(model.pingPong ? "往返成片最多 4 分钟，请选择较短的视频。" : "当前版本最多转换 4 分钟视频。"))
                             .foregroundStyle(.orange)
                     }
                 }
                 Picker("画质", selection: $model.quality) {
                     ForEach(QualityPreset.allCases) { preset in
-                        Text(preset.label).tag(preset)
+                        Text(AppStrings.text(preset.label)).tag(preset)
                     }
                 }.pickerStyle(.radioGroup)
+                Toggle("正放后倒放（首尾相接）", isOn: $model.pingPong)
+                if model.pingPong, let details = model.candidateDetails {
+                    Text(String(format: AppStrings.text("预计成片约 %@ 秒；会去掉两端重复画面。"),
+                                String(format: "%.1f", details.duration * 2)))
+                        .font(.footnote).foregroundStyle(.secondary)
+                }
                 Text("高质量文件更大、转换更慢；推荐标准。").font(.footnote).foregroundStyle(.secondary)
                 HStack {
                     Spacer()
@@ -570,7 +593,8 @@ struct CustomAerialsView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(asset.displayName).font(.headline)
                 Text(asset.sourceFilename).font(.footnote).foregroundStyle(.secondary)
-                Text("\(asset.details.width)×\(asset.details.height) · \(Int(asset.details.duration.rounded())) 秒")
+                Text(String(format: AppStrings.text("%lld×%lld · %lld 秒"),
+                            asset.details.width, asset.details.height, Int(asset.details.duration.rounded())))
                     .font(.footnote)
                 if asset.compatibilityValidated {
                     Label("动态壁纸兼容 ✓", systemImage: "checkmark.seal.fill")
@@ -579,7 +603,7 @@ struct CustomAerialsView: View {
                     Text("旧版导入 · 解锁兼容性未验证").font(.footnote).foregroundStyle(.orange)
                 }
                 Text(asset.id).font(.caption2.monospaced()).foregroundStyle(.secondary)
-                Text(statusText(item)).font(.footnote)
+                Text(AppStrings.text(statusText(item))).font(.footnote)
                     .foregroundStyle(item.isHealthy ? .green : .orange)
                 HStack(spacing: 10) {
                     Button("选择") { openWallpaperSettings() }
