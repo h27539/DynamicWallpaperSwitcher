@@ -1,0 +1,46 @@
+# Local build products
+.DS_Store
+.build/
+DerivedData/
+com.apple.DeveloperTools/
+*.app/
+*.xcuserstate
+UserInterfaceState*
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcsettings
+
+# Local diagnostics, runtime snapshots and personal media
+*.log
+Backups/
+Temp/
+tmp/
+dist/
+diagnostics/
+.local-release/
+scripts/repair_mac_catalog.py
+TEST_REPORT.md
+
+# Media and Apple/user-owned resources must never be committed
+*.mov
+*.mp4
+*.m4v
+*.hevc
+*.h265
+*.yuv
+*.y4m
+*.exr
+*.loctable
+TVIdleScreenStrings.bundle/
+entries.json
+entries-before-*.json
+resources*.tar
+manifest.source
+
+# Editor and local configuration
+.DS_Store?
+*.swp
+*.swo
+.env
+.env.*

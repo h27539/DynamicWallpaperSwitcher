@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible app or wallpaper behavior issue
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload Apple proprietary wallpaper assets, personal videos, Apple IDs, home paths, or full private system logs. Share only redacted excerpts."
+  - type: input
+    id: macos
+    attributes: {label: macOS version, placeholder: "26.7"}
+    validations: {required: true}
+  - type: dropdown
+    id: architecture
+    attributes: {label: Architecture, options: [Intel, Apple Silicon]}
+    validations: {required: true}
+  - type: input
+    id: model
+    attributes: {label: Mac model}
+    validations: {required: true}
+  - type: input
+    id: ffmpeg
+    attributes: {label: FFmpeg / ffprobe version}
+  - type: input
+    id: x265
+    attributes: {label: x265 version}
+  - type: textarea
+    id: video
+    attributes:
+      label: Source video properties
+      description: "Resolution, fps, codec, HDR/SDR, and duration. Do not attach the video."
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes: {label: Reproduction steps}
+    validations: {required: true}
+  - type: textarea
+    id: lock
+    attributes: {label: Lock-screen result}
+    validations: {required: true}
+  - type: textarea
+    id: unlock
+    attributes: {label: Post-unlock desktop result}
+    validations: {required: true}
+  - type: textarea
+    id: diagnostics
+    attributes: {label: Redacted error excerpt, if available}
